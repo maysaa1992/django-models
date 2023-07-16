@@ -15,8 +15,8 @@ class SnackDetailsView(DetailView):
     template_name = 'snack_details.html'
     model = Snack 
      
-class HomeView(TemplateView):
-    template_name = 'Home.html'      
+# class HomeView(TemplateView):
+#     template_name = 'home.html'      
 
 
 
